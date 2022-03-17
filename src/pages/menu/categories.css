@@ -1,0 +1,24 @@
+.categories{
+margin-top: 4rem;
+padding: 2rem;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.categories__btn{
+margin: 0 1rem;
+padding:0.5rem 1.5rem;
+border: 1px solid #dda074;
+color: #f3a411;
+background-color: #ffff;
+transition: transform .2s;
+
+}
+.categories__btn:hover,
+.categories__btn:active{
+    border: 1px solid #ffff;
+    color: #fff;
+    transform: scale(1.2);
+    background-color: #dda074;  
+    transition: transform .2s;
+}

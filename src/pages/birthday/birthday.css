@@ -1,0 +1,54 @@
+.birthday {
+  background-color: #56d0e0;
+  width: 100%;
+  height: 100vh;
+  padding: 4%;
+  text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  .birthday {
+    padding: 5% 15%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .birthday {
+    padding: 5% 35%;
+  }
+}
+
+.birthday-contianer {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: .5rem 1rem 2rem rgba(0, 0, 0, .5);
+}
+.birthday-contianer h3 {
+  color: #084047;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: left;
+}
+.birthday__list {
+  margin: 2rem;
+}
+.birthday__list ul {
+  list-style: none;
+}
+.btn {
+  width: 90%;
+  padding: 0.8rem 3rem;
+  border: 1px solid#56d0e0;
+  color: #032f35;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 5px;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #56d0e0;
+  color: #fff;
+}

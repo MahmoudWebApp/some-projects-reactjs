@@ -1,0 +1,7 @@
+.tour-list{
+    max-width: 42%;
+    margin: 0 29%;
+    margin-top: 5rem;
+    list-style: none;
+    display: inline-block;
+}
